@@ -20,7 +20,7 @@ public class HistoricalEvent {
 	 * error message and exits program.
 	 *
 	 * @param description original "historical" description
-	 * 
+	 *
 	 * @param eventDay Date of historical event
 	 */
 	public HistoricalEvent(String description, Date eventDay) {
@@ -58,9 +58,9 @@ public class HistoricalEvent {
 	/*
 	 * Sets description instance variable (no error checking, except checks for
 	 * null)
-	 * 
+	 *
 	 * @param description historical event description
-	 * 
+	 *
 	 * @return true if set, false if parameter is null
 	 */
 	public boolean setDescription(String description) {
@@ -75,10 +75,10 @@ public class HistoricalEvent {
 	/*
 	 * Sets eventDay variable (no error checking, except checks for null) Deep
 	 * copies object to ensure encapsulation
-	 * 
+	 *
 	 * @param eventDay Date object representing day of historical event, should not
 	 * change in any way
-	 * 
+	 *
 	 * @return true if set, false if parameter is null
 	 */
 	public boolean setEventDay(Date eventDay) {
@@ -93,9 +93,9 @@ public class HistoricalEvent {
 	/*
 	 * Sets all instance variables (no error checking, except checks for null) Deep
 	 * copies object to ensure encapsulation
-	 * 
+	 *
 	 * @param description and eventDay
-	 * 
+	 *
 	 * @return true if set, false if parameter is null
 	 */
 	// SetAll Method
